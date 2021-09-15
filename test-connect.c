@@ -1,8 +1,3 @@
-// This is a testing client for the connect module
-
-// You may want to improve this and/or create your own test module
-// (e.g., an I/O-based module)
-
 #include <assert.h>
 #include "connect.h"
 #include "cs136-trace.h"
