@@ -1,9 +1,4 @@
-// This module provides a function for analyzing a game of Connect
-// (e.g., Connect 4)
-
-// SEASHELL_READONLY
-
-// See the assignment for more details
+// Function for analyzing a game of Connect (e.g. Connect 4)
 
 extern const int TIE;
 extern const int INVALID_GAME;
