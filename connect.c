@@ -1,29 +1,9 @@
-///////////////////////////////////////////////////////////////////////////// 
-// INTEGRITY STATEMENT (v3)
-//
-// By signing your name and ID below you are stating that you have agreed
-// to the online academic integrity statement:a
-// https://student.cs.uwaterloo.ca/~cs136/current/assignments/integrity.shtml
-/////////////////////////////////////////////////////////////////////////////
-// I received help from and/or collaborated with: 
-
-// CS 136
-//  
-// Name: Richard Yuan
-// login ID: kqyuan
-///////////////////////////////////////////////////////////////////////////// 
-
-#include "trace-2d.h"
 #include <stdbool.h>
-#include "cs136-trace.h"
 #include <assert.h>
 
-/////////////////////////////////////////////////////////////////////////////
-// DO NOT MODIFY THESE CONSTANTS
 const int INVALID_GAME = -1;
 const int TIE = 1;
 const int MAX_BOARD_SIZE = 1024;
-/////////////////////////////////////////////////////////////////////////////
 
 // win(board, move, width, height, length) checks if a player wins by 
 // checking each piece horizontally, vertically, and diagonally. 
